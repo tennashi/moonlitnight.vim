@@ -45,10 +45,10 @@ highlight FoldColumn guibg=#121D32
 
 highlight ColorColumn guibg=#C85914
 
-highlight DiffAdd guibg=#008C72
-highlight DiffChange guibg=#DFBB04
+highlight DiffAdd guibg=#008C72 guifg=#121D32
+highlight DiffChange guibg=#DFBB04 guifg=#121D32
 highlight DiffText guibg=#957D03
-highlight DiffDelete guibg=#6F310B
+highlight DiffDelete guibg=#6F310B guifg=#121D32
 
 highlight Comment guifg=#61656C
 highlight Statement guifg=#F8CF05
