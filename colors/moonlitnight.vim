@@ -5,58 +5,58 @@ if exists('syntax_on')
   syntax reset
 endif
 
-highlight Normal guibg=#121D32 guifg=#C0C7D6
-highlight NonText guibg=#121D32 guifg=#1F2641
-highlight MatchParen guibg=#DFBB04
-highlight Conceal guibg=#243965
-highlight Search guibg=#9DACCA
-highlight ErrorMsg guibg=#C85914 guifg=#C0C7D6
-highlight WarningMsg guibg=#DFBB04 guifg=#121D32
-highlight SpecialKey guifg=#DFBB04
+execute $"highlight Normal guibg={g:moonlitnight#background} guifg={g:moonlitnight#foreground}"
+execute $"highlight NonText guibg={g:moonlitnight#background} guifg={g:moonlitnight#gray_scale[1]}"
+execute $"highlight MatchParen guibg={g:moonlitnight#yellow}"
+execute $"highlight Conceal guibg={g:moonlitnight#dark_blue}"
+execute $"highlight Search guibg={g:moonlitnight#gray_scale[-2]}"
+execute $"highlight ErrorMsg guibg={g:moonlitnight#red} guifg={g:moonlitnight#foreground}"
+execute $"highlight WarningMsg guibg={g:moonlitnight#yellow} guifg={g:moonlitnight#background}"
+execute $"highlight SpecialKey guifg={g:moonlitnight#yellow}"
 
-highlight StatusLine guibg=#243965 guifg=#647EB0
-highlight StatusLineNC guibg=#121D32 guifg=#243965
-highlight StatusLineTerm guibg=#647EB0 guifg=#DFBB04
-highlight StatusLineTermNC guibg=#243965 guifg=#957D03
-highlight ModeMsg guifg=#DFBB04
-highlight MoreMsg guifg=#DFBB04
-highlight Question guifg=#39A994
+execute $"highlight StatusLine guibg={g:moonlitnight#dark_blue} guifg={g:moonlitnight#gray_scale[-4]}"
+execute $"highlight StatusLineNC guibg={g:moonlitnight#background} guifg={g:moonlitnight#dark_blue}"
+execute $"highlight StatusLineTerm guibg={g:moonlitnight#gray_scale[-4]} guifg={g:moonlitnight#yellow}"
+execute $"highlight StatusLineTermNC guibg={g:moonlitnight#dark_blue} guifg={g:moonlitnight#dark_yellow}"
+execute $"highlight ModeMsg guifg={g:moonlitnight#yellow}"
+execute $"highlight MoreMsg guifg={g:moonlitnight#yellow}"
+execute $"highlight Question guifg={g:moonlitnight#green}"
 
-highlight VertSplit guibg=#243965 guifg=#647EB0
+execute $"highlight VertSplit guibg={g:moonlitnight#dark_blue} guifg={g:moonlitnight#gray_scale[-4]}"
 
-highlight CursorLine guibg=#355697
-highlight CursorColumn guibg=#355697
-highlight LineNr guibg=#121D32 guifg=#243965
-highlight CursorLineNr guibg=#243965 guifg=#647EB0
+execute $"highlight CursorLine guibg={g:moonlitnight#blue}"
+execute $"highlight CursorColumn guibg={g:moonlitnight#blue}"
+execute $"highlight LineNr guibg={g:moonlitnight#background} guifg={g:moonlitnight#dark_blue}"
+execute $"highlight CursorLineNr guibg={g:moonlitnight#dark_blue} guifg={g:moonlitnight#gray_scale[-4]}"
 
-highlight Visual guibg=#647EB0
+execute $"highlight Visual guibg={g:moonlitnight#gray_scale[-4]}"
 
-highlight TabLine guibg=#787E87
-highlight TabLineFill guifg=#121D32 guibg=#DFBB04
-highlight TabLineSel guibg=#DFBB04 guifg=#121D32
+execute $"highlight TabLine guibg={g:moonlitnight#gray_scale[-3]}"
+execute $"highlight TabLineFill guifg={g:moonlitnight#background} guibg={g:moonlitnight#yellow}"
+execute $"highlight TabLineSel guibg={g:moonlitnight#yellow} guifg={g:moonlitnight#background}"
 
-highlight Pmenu guibg=#243965
-highlight PmenuSel guibg=#9DACCA
+execute $"highlight Pmenu guibg={g:moonlitnight#dark_blue}"
+execute $"highlight PmenuSel guibg={g:moonlitnight#gray_scale[-2]}"
 
-highlight SignColumn guibg=#121D32 guifg=#243965
+execute $"highlight SignColumn guibg={g:moonlitnight#background} guifg={g:moonlitnight#dark_blue}"
 
-highlight Folded guibg=#243965 guifg=#DFBB04
-highlight FoldColumn guibg=#121D32
+execute $"highlight Folded guibg={g:moonlitnight#dark_blue} guifg={g:moonlitnight#yellow}"
+execute $"highlight FoldColumn guibg={g:moonlitnight#background}"
 
-highlight ColorColumn guibg=#C85914
+execute $"highlight ColorColumn guibg={g:moonlitnight#red}"
 
-highlight DiffAdd guibg=#008C72 guifg=#121D32
-highlight DiffChange guibg=#DFBB04 guifg=#121D32
-highlight DiffText guibg=#957D03
-highlight DiffDelete guibg=#6F310B guifg=#121D32
+execute $"highlight DiffAdd guibg={g:moonlitnight#dark_green} guifg={g:moonlitnight#background}"
+execute $"highlight DiffChange guibg={g:moonlitnight#yellow} guifg={g:moonlitnight#background}"
+execute $"highlight DiffText guibg={g:moonlitnight#dark_yellow}"
+execute $"highlight DiffDelete guibg={g:moonlitnight#dark_red} guifg={g:moonlitnight#background}"
 
-highlight Comment guifg=#61656C
-highlight Statement guifg=#F8CF05
-highlight Constant guifg=#4385AD
-highlight Type guifg=#E58611
-highlight Special guifg=#DFBB04
-highlight PreProc guifg=#FDEFAA
+execute $"highlight Comment guifg={g:moonlitnight#gray_scale[-5]}"
+execute $"highlight Statement guifg={g:moonlitnight#light_yellow}"
+execute $"highlight Constant guifg={g:moonlitnight#light_blue}"
+execute $"highlight Type guifg={g:moonlitnight#light_red}"
+execute $"highlight Special guifg={g:moonlitnight#yellow}"
+execute $"highlight PreProc guifg={g:moonlitnight#very_light_yellow}"
 
-highlight Identifier guifg=#94DECF
-highlight error guibg=#c85914 guifg=#c0c7d6
+execute $"highlight Identifier guifg={g:moonlitnight#light_green}"
+execute $"highlight error guibg={g:moonlitnight#red} guifg={g:moonlitnight#foreground}"
 
