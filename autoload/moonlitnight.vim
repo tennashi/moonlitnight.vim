@@ -28,5 +28,11 @@ let g:moonlitnight#light_blue = g:moonlitnight#gray_scale[4]
 let g:moonlitnight#blue = g:moonlitnight#gray_scale[3]
 let g:moonlitnight#dark_blue = g:moonlitnight#gray_scale[2]
 
+let g:moonlitnight#light_cyan = "#00CAA9"
+let g:moonlitnight#cyan = "#00A7C0"
+
+let g:moonlitnight#light_magenta = "#A267B5"
+let g:moonlitnight#magenta = "#7F62AF"
+
 let g:moonlitnight#background = g:moonlitnight#gray_scale[0]
 let g:moonlitnight#foreground = g:moonlitnight#gray_scale[-1]
