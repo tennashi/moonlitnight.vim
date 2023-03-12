@@ -60,3 +60,21 @@ execute $"highlight PreProc guifg={g:moonlitnight#very_light_yellow}"
 execute $"highlight Identifier guifg={g:moonlitnight#light_green}"
 execute $"highlight error guibg={g:moonlitnight#red} guifg={g:moonlitnight#foreground}"
 
+let g:terminal_ansi_colors = [
+\ g:moonlitnight#background,
+\ g:moonlitnight#red,
+\ g:moonlitnight#green,
+\ g:moonlitnight#yellow,
+\ g:moonlitnight#blue,
+\ g:moonlitnight#magenta,
+\ g:moonlitnight#cyan,
+\ g:moonlitnight#foreground,
+\ g:moonlitnight#gray_scale[1],
+\ g:moonlitnight#light_red,
+\ g:moonlitnight#light_green,
+\ g:moonlitnight#light_yellow,
+\ g:moonlitnight#light_blue,
+\ g:moonlitnight#light_magenta,
+\ g:moonlitnight#light_cyan,
+\ g:moonlitnight#gray_scale[-2],
+\]
